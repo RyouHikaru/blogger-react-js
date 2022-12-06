@@ -4,7 +4,7 @@ const NewPost = ({
   return (
     <main className="NewPost">
       <h2>New Post</h2>
-      <form onSubmit={handleSubmit} className="newPosForm">
+      <form onSubmit={handleSubmit} className="newPostForm">
         <label htmlFor="postTitle">Title:</label>
         <input
           id="postTitle"
